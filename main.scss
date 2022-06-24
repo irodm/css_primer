@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import './variables/colore.scss';
+
+
+@import './secciones/index';
+@import './secciones/contacto';
+@import './secciones/header';
+
+
+
+main{
+    h1{
+        color: white;
+        background-color: black;
+    }
+    .primeraseccion{
+        padding: 1rem;
+
+    }
+}

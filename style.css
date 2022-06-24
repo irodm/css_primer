@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+#index main h1 {
+  color: white;
+  background-color: black; }
+
+#index main .primeraseccion {
+  padding: 1rem;
+  background-color: grey; }
+  #index main .primeraseccion p {
+    text-align: center;
+    color: beige; }
+
+nav ul {
+  display: flex; }
+  nav ul li {
+    list-style: none;
+    padding: 1rem; }
+    nav ul li:hover {
+      background-color: grey; }
+    nav ul li a {
+      color: #dfdcdc; }
+      nav ul li a:active {
+        color: violet; }
+
+@media (min-width: 850px) {
+  nav ul {
+    flex-direction: row; } }
+
+main h1 {
+  color: white;
+  background-color: black; }
+
+main .primeraseccion {
+  padding: 1rem; }
